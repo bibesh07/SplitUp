@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0dcdf6c8-c633-48f0-a5d9-d365a14a88bd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="userListModal.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userListModal.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="billDetailsModal.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>signupform</find>
+      <find>login.css</find>
+      <find>nav</find>
+      <find>content</find>
+      <find>password</find>
+      <find>console</find>
+      <find>java</find>
+      <find>environmen</find>
+      <find>environ</find>
+      <find>D:</find>
+      <find>JAVA_HOME</find>
+      <find>environment</find>
+      <find>SDK</find>
+      <find>26</find>
+      <find>5</find>
+      <find>delete</find>
+      <find>userList.html</find>
+      <find>I am here</find>
+      <find>I am her</find>
+      <find>include</find>
+      <find>colo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>registerForm</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts.js" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/register/register.css" />
+        <option value="$PROJECT_DIR$/Ionic/.sourcemaps/main.js.map" />
+        <option value="$PROJECT_DIR$/Ionic/src/app/app.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.css" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.html" />
+        <option value="$PROJECT_DIR$/Ionic/config.xml" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetails.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.css" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/register/register.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/register/register.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.css" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.css" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/userList.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/Ionic/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Ionic/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-device/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-device/tests/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-ionic-keyboard/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-ionic-webview/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-splashscreen/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-splashscreen/tests/ios/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-splashscreen/tests/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-statusbar/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-statusbar/tests/package.json" />
+      <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-whitelist/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
+              <item name="billDetailsModal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
+              <item name="userListModal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\personal\source\repos\SplitUp\Ionic\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dcdf6c8-c633-48f0-a5d9-d365a14a88bd" name="Default" comment="" />
+      <created>1536445462166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536445462166</updated>
+      <workItem from="1536445470389" duration="19777000" />
+      <workItem from="1536626214628" duration="2699000" />
+      <workItem from="1536703098820" duration="2242000" />
+      <workItem from="1536705571216" duration="928000" />
+      <workItem from="1536706520351" duration="574000" />
+      <workItem from="1536707118506" duration="128000" />
+      <workItem from="1536707264041" duration="811000" />
+      <workItem from="1536714812035" duration="1041000" />
+      <workItem from="1536715951064" duration="115000" />
+      <workItem from="1536716085558" duration="1732000" />
+      <workItem from="1536718682878" duration="12043000" />
+      <workItem from="1537128456520" duration="2833000" />
+      <workItem from="1537147294516" duration="271000" />
+      <workItem from="1537205645561" duration="1568000" />
+      <workItem from="1537329339190" duration="14000" />
+      <workItem from="1537329411339" duration="662000" />
+      <workItem from="1537471209192" duration="828000" />
+      <workItem from="1539230591524" duration="2630000" />
+      <workItem from="1540347520889" duration="9083000" />
+      <workItem from="1540495066715" duration="1136000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="61115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15068494" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2647059" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32897604" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Ionic/src/app/app.component.ts</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#openPage#0;n#MyApp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="118" lean-forward="true" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts.js" />
+    <entry file="file://$PROJECT_DIR$/Ionic/.sourcemaps/main.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret column="8652" selection-start-column="8652" selection-end-column="8652" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/main.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#openPage#0;n#MyApp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vs/config/applicationhost.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="248" column="45" selection-start-line="248" selection-start-column="45" selection-end-line="248" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SplitUp.Web/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetails.html" />
+    <entry file="file://$PROJECT_DIR$/Ionic/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/ionic.starter.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/ionic.config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="94" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.html" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.css" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.ts" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.css" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.html" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/userList.ts" />
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

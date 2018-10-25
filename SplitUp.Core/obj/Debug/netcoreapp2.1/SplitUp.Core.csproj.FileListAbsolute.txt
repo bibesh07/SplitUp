@@ -1,0 +1,9 @@
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\bin\Debug\netcoreapp2.1\SplitUp.Core.deps.json
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\bin\Debug\netcoreapp2.1\SplitUp.Core.dll
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\bin\Debug\netcoreapp2.1\SplitUp.Core.pdb
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.csprojAssemblyReference.cache
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.csproj.CoreCompileInputs.cache
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.AssemblyInfoInputs.cache
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.AssemblyInfo.cs
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.dll
+c:\users\personal\source\repos\SplitUp\SplitUp.Core\obj\Debug\netcoreapp2.1\SplitUp.Core.pdb
