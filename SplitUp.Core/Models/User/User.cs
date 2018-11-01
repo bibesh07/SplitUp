@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SplitUp.Core.Models.User
-{
-    public class User
+public class User
     {
         public int Id { get; set; }
 
@@ -18,5 +16,7 @@ namespace SplitUp.Core.Models.User
 
         public String Token { get; set; }
 
+        public IEnumerable<Transaction> Transactions { get; set; }
+
+        public IEnumerable<Credit> Creditors { get; set; }
     }
-}

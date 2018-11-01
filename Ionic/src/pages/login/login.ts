@@ -1,7 +1,6 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {Nav, NavController} from 'ionic-angular';
 import { Validators, FormGroup, FormControl } from '@angular/forms';
-import { ToastController } from 'ionic-angular';
 import { RegisterPage } from '../register/register';
 import { HomePage } from "../home/home";
 import {UserService} from "../../services/user.service";
@@ -17,8 +16,7 @@ import {AlertController} from "ionic-angular";
 export class LoginPage implements OnInit {
   @ViewChild(Nav) nav: Nav;
 
-  constructor(public ToastController: ToastController,
-              public NavController: NavController,
+  constructor(public NavController: NavController,
               private _userService: UserService,
               public alertController: AlertController) {}
 
@@ -51,7 +49,7 @@ export class LoginPage implements OnInit {
           });
           alert.present();
         } else {
-          localStorage.setItem('token', response.token);
+          localStorage.setItem('userId', response.id);
           localStorage.setItem('fullName', response.fullName);
           localStorage.setItem('gender', response.gender);
           this.NavController.setRoot(HomePage);

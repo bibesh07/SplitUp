@@ -3,6 +3,10 @@ import {AlertController} from "ionic-angular";
 import {ViewController} from "ionic-angular";
 import {UserService} from "../../services/user.service";
 import { NavParams} from "ionic-angular";
+import {TransactionService} from "../../services/transaction.service";
+import {HomePage} from "../../pages/home/home";
+import { NavController} from "ionic-angular";
+import { ToastController } from 'ionic-angular';
 
 @Component({
   templateUrl: 'userListModal.html',
@@ -11,7 +15,11 @@ import { NavParams} from "ionic-angular";
 export class UserListModal {
   constructor(public alertController: AlertController,
               public viewCtrl: ViewController,
-              public _userService: UserService, params: NavParams) {
+              public _userService: UserService, params: NavParams,
+              public _transactionService: TransactionService,
+              public NavController: NavController,
+              public toastController: ToastController,
+              ) {
     this.setEmails();
     this.showEmails = this.allEmails;
     this.billDetails = params.get('billDetails');
@@ -72,11 +80,25 @@ export class UserListModal {
     this.viewCtrl.dismiss();
   }
 
-  nextStep = () => {
-    console.log("Aight");
+  submitBill = () => {
+    console.log(this.billDetails);
+    this._transactionService.SaveTransaction(this.billDetails, this.selectedEmails)
+      .subscribe(response => {
+        if(response.status  == "Success" ) {
+          this.toastSuccessMessage(response.message);
+        }
+      });
+
+    this.NavController.setRoot(HomePage);
   }
 
-  goBack = () => {
-    this.dismiss();
+  toastSuccessMessage = (message) => {
+    let toast = this.toastController.create({
+      message: message,
+      duration: 3000,
+      position: 'bottom',
+    });
+
+    toast.present();
   }
 }

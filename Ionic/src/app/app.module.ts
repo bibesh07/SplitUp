@@ -14,6 +14,7 @@ import {RegisterPage} from "../pages/register/register";
 import { HttpClient, HttpClientModule} from "@angular/common/http";
 import { BillDetailsModal } from "../modals/billDetailsModal/billDetailsModal";
 import {UserListModal} from "../modals/userListModal/userListModal";
+import {TransactionService} from "../services/transaction.service";
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {UserListModal} from "../modals/userListModal/userListModal";
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     UserService,
-    HttpClient
+    HttpClient,
+    TransactionService
   ]
 })
 export class AppModule {}

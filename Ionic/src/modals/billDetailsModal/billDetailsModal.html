@@ -22,22 +22,22 @@
   <form novalidate (ngSubmit)='b.form.valid && nextStep()' [formGroup]="billForm" #b="ngForm">
     <ion-item>
       <ion-label stacked>Enter total amount spent</ion-label>
-      <ion-input type="number" text-center id="total-amt" placeholder="$0.00" [(ngModel)]="billDetails.amount" formControlName="amount"></ion-input>
+      <ion-input type="number" text-center id="total-amt" placeholder="$0.00" [(ngModel)]="billDetails.amountPaid" formControlName="amountPaid"></ion-input>
     </ion-item>
-    <ion-item no-lines *ngIf="(billForm.get('amount').hasError('required') || billForm.get('amount').hasError('min')) && (billForm.get('amount').touched || b.submitted)">
-      <div *ngIf="billForm.get('amount').hasError('required')">
+    <ion-item no-lines *ngIf="(billForm.get('amountPaid').hasError('required') || billForm.get('amountPaid').hasError('min')) && (billForm.get('amountPaid').touched || b.submitted)">
+      <div *ngIf="billForm.get('amountPaid').hasError('required')">
         <h6 ion-text center color="danger"> Amount Field is required.</h6>
       </div>
-      <div *ngIf="billForm.get('amount').hasError('min')">
+      <div *ngIf="billForm.get('amountPaid').hasError('min')">
         <h6 ion-text center color="danger"> Enter minimum amount of $0.1.</h6>
       </div>
     </ion-item>
 
     <ion-item>
       <ion-label stacked>Receipt title</ion-label>
-      <ion-input id="receipt-title" type="text" [(ngModel)]="billDetails.recepitTitle" formControlName="recepitTitle"></ion-input>
+      <ion-input id="receipt-title" type="text" [(ngModel)]="billDetails.billName" formControlName="billName"></ion-input>
     </ion-item>
-    <ion-item no-lines *ngIf="billForm.get('recepitTitle').hasError('required') && (billForm.get('recepitTitle').touched || b.submitted)">
+    <ion-item no-lines *ngIf="billForm.get('billName').hasError('required') && (billForm.get('billName').touched || b.submitted)">
       <h6 ion-text center color="danger"> Receipt Title Field is required.</h6>
     </ion-item>
 

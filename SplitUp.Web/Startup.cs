@@ -35,6 +35,10 @@ namespace SplitUp.Web
 
             services.AddTransient<IUserService, UserService>();
 
+            services.AddTransient<ITransactionService, TransactionService>();
+
+            services.AddTransient<ICreditService, CreditService>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "API", Version = "v1" });

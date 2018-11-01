@@ -44,7 +44,7 @@
   </ion-list>
 
   <ion-footer padding>
-    <button ion-button block [disabled]="this.selectedEmails.length != this.billDetails.noOfIndividuals">Submit &nbsp;<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon></button>
-    <button ion-button block (click)="goBack()" color="danger"><ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>&nbsp; Go back </button>
+    <button ion-button block [disabled]="this.selectedEmails.length != this.billDetails.noOfIndividuals" (click)="submitBill()">Submit &nbsp;<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon></button>
+    <button ion-button block (click)="dismiss()" color="danger"><ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>&nbsp; Go back </button>
   </ion-footer>
 </ion-content>

@@ -16,17 +16,18 @@ export class BillDetailsModal implements OnInit {
 
 
   billDetails: any = {
-    'amount': '',
-    'recepitTitle': '',
+    'amountPaid': '',
+    'billName': '',
     'noOfIndividuals': '',
     'purchaseDate': new Date().toISOString(),
-    'memo': ''
+    'memo': '',
+    'userId': localStorage.getItem('userId')
   }
 
   ngOnInit() {
     this.billForm = new FormGroup({
-      amount: new FormControl('', [Validators.required, Validators.min(0.1)]),
-      recepitTitle: new FormControl('', [Validators.required]),
+      amountPaid: new FormControl('', [Validators.required, Validators.min(0.1)]),
+      billName: new FormControl('', [Validators.required]),
       noOfIndividuals: new FormControl('', [Validators.required, Validators.min(1)]),
       purchaseDate: new FormControl('', [Validators.required]),
       memo: new FormControl(),

@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SplitUp.Core.Models.User;
 using SplitUp.Core.Validators;
 using SplitUp.Web.Services;
 namespace SplitUp.Web.Controllers
@@ -17,9 +16,16 @@ namespace SplitUp.Web.Controllers
     {
         private readonly IUserService _userService;
 
-        public UsersController(IUserService userService)
+        private readonly ITransactionService _transactionService;
+
+        private readonly ICreditService _creditService;
+
+
+        public UsersController(IUserService userService, ITransactionService transactionService, ICreditService creditService)
         {
             _userService = userService;
+            _transactionService = transactionService;
+            _creditService = creditService;
         }
 
         [HttpPost("Login")]
@@ -93,6 +99,18 @@ namespace SplitUp.Web.Controllers
         }
 
         [HttpGet("GetAllUsersEmail")]
-        public IActionResult GetAllUsersEmail() =>  Ok(_userService.GetAllUsersEmail());
+        public IActionResult GetAllUsersEmail() => Ok(_userService.GetAllUsersEmail());
+
+        [HttpGet("GetAmounts/{userId}")]
+        public IActionResult GetAmounts(int userId)
+        {
+           var amounts = JsonConvert.SerializeObject(new
+           {
+               amountToPay = _creditService.GetAmountToPay(userId),
+               amountToReceive = _transactionService.GetAmountToReceive(userId),
+           });
+
+            return Ok(amounts);
+        }
     }
 }

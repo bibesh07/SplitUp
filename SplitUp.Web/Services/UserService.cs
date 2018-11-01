@@ -1,4 +1,4 @@
-﻿using SplitUp.Core.Models.User;
+﻿using Microsoft.EntityFrameworkCore;
 using SplitUp.Web.Data;
 using System;
 using System.Collections.Generic;

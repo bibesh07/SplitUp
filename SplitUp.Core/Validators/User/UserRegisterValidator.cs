@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using SplitUp.Core.Models.User;
 using System;
 using System.Collections.Generic;
 using System.Text;
