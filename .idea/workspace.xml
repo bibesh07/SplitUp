@@ -3,43 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0dcdf6c8-c633-48f0-a5d9-d365a14a88bd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SplitUp/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/DesignTimeBuild/.dtbcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ionic/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/login/login.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/Models/User/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/Models/User/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/Validators/User/UserLoginValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/Validators/User/UserLoginValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/Validators/User/UserRegisterValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/Validators/User/UserRegisterValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Data/DataContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Data/DbInitilizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Data/DbInitilizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/20180913193608_Initial Migration.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/20180913193608_Initial Migration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/20180917175749_Testing Migration.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/20180917175749_Testing Migration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Controllers/TransactionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Controllers/TransactionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/CreditService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/CreditService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/ICreditService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/ICreditService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/TransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/TransactionService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.pdb" afterDir="false" />
     </list>
@@ -55,11 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userListModal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
+      <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="151">
+              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,19 +46,22 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="253">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding>
+                <element signature="e#1182#1188#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userListModal.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
+      <file leaf-file-name="login.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,33 +70,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="1105">
               <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-                <element signature="n#!!block;n#openPage#0;n#MyApp#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="billDetailsModal.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,19 +143,19 @@
         <option value="$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.css" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.css" />
-        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.html" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/usersList/userList.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/services/transaction.service.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.html" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/services/transaction.service.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" />
       </list>
     </option>
   </component>
@@ -254,13 +211,6 @@
               <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
               <item name="Ionic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
@@ -352,27 +302,31 @@
       <workItem from="1540347520889" duration="9083000" />
       <workItem from="1540495066715" duration="1136000" />
       <workItem from="1540519343588" duration="10089000" />
+      <workItem from="1541099442069" duration="12000" />
+      <workItem from="1541100119611" duration="2893000" />
+      <workItem from="1541123110471" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71204000" />
+    <option name="totallyTimeSpent" value="75623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13859275" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13856691" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.05970149" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2647059" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2647059" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.05970149" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,252 +347,67 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-            <element signature="n#!!block;n#openPage#0;n#MyApp#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="118" lean-forward="true" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts.js" />
-    <entry file="file://$PROJECT_DIR$/Ionic/.sourcemaps/main.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret column="8652" selection-start-column="8652" selection-end-column="8652" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/list/list.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vs/config/applicationhost.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-428">
-          <caret line="248" column="45" selection-start-line="248" selection-start-column="45" selection-end-line="248" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SplitUp.Web/Properties/launchSettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetails.html" />
-    <entry file="file://$PROJECT_DIR$/Ionic/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/ionic.starter.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/ionic.config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/register/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.html" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.css" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/addUserModal/addUserModal.ts" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.css" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/usersList.html" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/usersList/userList.ts" />
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-end-line="38" />
+        <state relative-caret-position="697">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/transaction.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="459">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#1182#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="1020">
           <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
@@ -647,23 +416,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="510">
           <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -671,19 +426,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/transaction.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <element signature="n#!!block;n#openPage#0;n#MyApp#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding>
+            <element signature="e#1182#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,13 +7,16 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
 
+   SITEURL = "https://localhost:44388/api/";
+
+
   is_User_LoggedIn() {
     return localStorage.getItem('token');
   }
 
   login(email: string, password: string) {
     return this.http.post<any>(
-      'https://localhost:44388/api/users/login',
+      this.SITEURL + 'users/login',
       {'Email': email, 'Password': password});
   }
 
@@ -23,7 +26,7 @@ export class UserService {
 
   register = (user: any ) => {
     return this.http.post<any>(
-      'https://localhost:44388/api/users/register',
+      this.SITEURL + 'users/register',
       {'Email': user.email,
               'FullName': user.name,
               'Password': user.password,
@@ -33,6 +36,10 @@ export class UserService {
   }
 
   getAllUsersEmail = () => {
-    return this.http.get('https://localhost:44388/api/users/GetAllUsersEmail');
+    return this.http.get(this.SITEURL + 'users/GetAllUsersEmail');
+  }
+
+  GetAmounts = () => {
+    return this.http.get(this.SITEURL + "users/GetAmounts/" + localStorage.getItem('userId'));
   }
 }

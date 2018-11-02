@@ -7,7 +7,7 @@ namespace SplitUp.Web.Services
 {
     public interface ICreditService
     {
-        void InsertCreditors(int transactionId, int userId, String creditorEmail);
+        void InsertCreditors(Credit details, String CreditorEmail);
 
         double GetAmountToPay(int UserId);
     }

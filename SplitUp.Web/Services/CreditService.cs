@@ -18,16 +18,10 @@ namespace SplitUp.Web.Services
             _userService = userService;
         }
 
-        public void InsertCreditors(int transactionId, int userId, string creditorEmail)
+        public void InsertCreditors(Credit details, string creditorEmail)
         {
-            Credit details = new Credit()
-            {
-                CreditorId = _userService.GetUserByEmail(creditorEmail).Id,
-                Status = 0,
-                TransactionId = transactionId,
-                UpdatedDate = null,
-            };
-
+            details.CreditorId = _userService.GetUserByEmail(creditorEmail).Id;
+             
             _dataContext.Add(details);
             _dataContext.SaveChanges();
         }

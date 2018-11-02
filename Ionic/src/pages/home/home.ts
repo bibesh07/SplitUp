@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ModalController } from "ionic-angular";
 import { BillDetailsModal } from "../../modals/billDetailsModal/billDetailsModal";
+import {UserService} from "../../services/user.service";
 
 @Component({
   selector: 'page-home',
@@ -12,6 +13,8 @@ export class HomePage {
   username: string;
   genderIcon: string;
   gender: string;
+  amountToPay: any;
+  amountToReceive: any;
 
   history= [
     {'icon': 'checkmark-circle', 'message': 'Amrit Subedi paid $45.89 for Walmart bill of 14th August'},
@@ -22,7 +25,8 @@ export class HomePage {
   ];
 
   constructor(public navCtrl: NavController,
-              public modalController: ModalController) {
+              public modalController: ModalController,
+              public userService: UserService) {
       this.username = localStorage.getItem('fullName');
       this.gender = localStorage.getItem('gender');
       if(this.gender == 'M') {
@@ -32,6 +36,11 @@ export class HomePage {
       } else {
         this.genderIcon = "https://image.flaticon.com/icons/png/512/23/23228.png";
       }
+       userService.GetAmounts().subscribe(
+        response => {
+               this.amountToPay = response.amountToPay;
+                this.amountToReceive = response.amountToReceive;
+        });
   }
 
   openModal() {

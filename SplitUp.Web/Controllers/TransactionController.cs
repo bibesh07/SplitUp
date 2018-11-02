@@ -32,8 +32,10 @@ namespace SplitUp.Web.Controllers
                     AmountToPay = transactionDetails.Transaction.AmountPaid / transactionDetails.Transaction.NoOfIndividuals,
                     TransactionId = transactionId,
                     CreditorId = 0,
+                    Status = 0,
+                    UpdatedDate = null,
                 };
-                _creditService.InsertCreditors(transactionId, transactionDetails.Transaction.UserId, transactionDetails.Emails[i]);
+                _creditService.InsertCreditors(details, transactionDetails.Emails[i]);
             }
 
             return Ok(this._transactionSuccessMessage());

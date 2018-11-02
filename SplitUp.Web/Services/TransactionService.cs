@@ -20,11 +20,21 @@ namespace SplitUp.Web.Services
         {
             _dataContext.Add(transaction);
             _dataContext.SaveChanges();
+
             return transaction.Id;
         }
 
-        public double GetAmountToReceive(int userId) =>  _dataContext.Transactions.Where(u => u.UserId == userId).Include(u => u.Creditors)
-                                                            .ThenInclude(u => u.AmountToPay).Where(c => c.Creditors.Any(i => i.Status ==1)).Sum(u => u.AmountPaid);
+        public double GetAmountToReceive(int userId)
+        {
+            var transactions = _dataContext.Transactions.Include(u => u.Creditors).Where(x => x.UserId == userId).ToList();
+            double total = 0;
+
+            foreach(var abc in transactions)
+            {
+                total += abc.Creditors.Where(s => s.Status == 0).Sum(a => a.AmountToPay);
+            }
+            return total;
+        }
 
         public IEnumerable<Transaction> GetAllBills(int userId) =>  _dataContext.Transactions.Include(c => c.Creditors).ToList();
 
