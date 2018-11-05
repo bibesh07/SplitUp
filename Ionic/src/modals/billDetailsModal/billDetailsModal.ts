@@ -40,6 +40,15 @@ export class BillDetailsModal implements OnInit {
 
   nextStep() {
     let usersList = this.modalController.create(UserListModal, {billDetails: this.billDetails});
+    usersList.onDidDismiss(response => {
+      console.log(response);
+       if (response) {
+         console.log("I am about To dismiss");
+         this.dismiss();
+       } else {
+         console.log("I am not about to dismiss");
+       }
+    })
     usersList.present();
   }
 }

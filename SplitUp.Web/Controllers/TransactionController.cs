@@ -59,8 +59,30 @@ namespace SplitUp.Web.Controllers
         [HttpGet("GetBillDetails/{transactionId}")]
         public IActionResult GetBillDetails(int transactionId)
         {
-            var billDetail = _transactionService.SetBillDetails(transactionId);
+            Transaction billDetail = _transactionService.SetBillDetails(transactionId);
+
             return Ok(billDetail);
         }
+
+        [HttpDelete("DeleteTransaction/{transactionId}")]
+        public IActionResult DeleteTransaction(int transactionId)
+        {
+            _creditService.DeleteCreditors(transactionId);
+            _transactionService.DeleteTransaction(transactionId);
+
+            return Ok(this._transactionDeleteMessage());
+        }
+
+        private String _transactionDeleteMessage()
+        {
+            return JsonConvert.SerializeObject(new
+            {
+                status = "Success",
+                message = "Transaction has been succesfully deleted.",
+            });
+        }
+
+        [HttpGet("GetCreditorsByTransaction/{transactionId}")]
+        public IActionResult GetCreditorsByTransaction(int transactionId) => Ok(_creditService.GetCreditorsByTransaction(transactionId));
     }
 }

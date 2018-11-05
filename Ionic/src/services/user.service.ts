@@ -11,7 +11,7 @@ export class UserService {
 
 
   is_User_LoggedIn() {
-    return localStorage.getItem('token');
+    return localStorage.getItem('userId');
   }
 
   login(email: string, password: string) {

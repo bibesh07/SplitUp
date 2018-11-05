@@ -1,4 +1,5 @@
-﻿using SplitUp.Web.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SplitUp.Web.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,18 @@ namespace SplitUp.Web.Services
             _dataContext.SaveChanges();
         }
 
-        public double GetAmountToPay(int UserId) => _dataContext.Creditors.Where(u => u.CreditorId == UserId && u.Status == 0).Sum(t => t.AmountToPay);
+        public double GetAmountToPay(int UserId) => _dataContext.Creditors.Where(u => u.CreditorId == UserId && u.Status == 0 && u.Transaction.UserId != UserId).Sum(t => t.AmountToPay);
+
+        public void DeleteCreditors(int transactionId)
+        {
+            _dataContext.RemoveRange(this.GetCreditorsByTransaction(transactionId));
+            _dataContext.SaveChanges();
+        }
+
+        public IEnumerable<Credit> GetCreditorsByTransaction(int transactionId)
+        {
+            var credtiors = _dataContext.Creditors.AsNoTracking().Include(c => c.Creditor).Include(t => t.Transaction).Where(t => t.TransactionId == transactionId).ToList();
+            return credtiors;
+        }
     }
 }

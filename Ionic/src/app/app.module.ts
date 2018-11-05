@@ -15,6 +15,8 @@ import { HttpClient, HttpClientModule} from "@angular/common/http";
 import { BillDetailsModal } from "../modals/billDetailsModal/billDetailsModal";
 import {UserListModal} from "../modals/userListModal/userListModal";
 import {TransactionService} from "../services/transaction.service";
+import {ViewBillDetailsModal} from "../modals/viewBillDetailsModal/viewBillDetailsModal";
+import {CreditService} from "../services/credit.service";
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import {TransactionService} from "../services/transaction.service";
     LoginPage,
     RegisterPage,
     BillDetailsModal,
-    UserListModal
+    UserListModal,
+    ViewBillDetailsModal
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import {TransactionService} from "../services/transaction.service";
     LoginPage,
     RegisterPage,
     BillDetailsModal,
-    UserListModal
+    UserListModal,
+    ViewBillDetailsModal
   ],
   providers: [
     StatusBar,
@@ -47,7 +51,8 @@ import {TransactionService} from "../services/transaction.service";
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     UserService,
     HttpClient,
-    TransactionService
+    TransactionService,
+    CreditService
   ]
 })
 export class AppModule {}

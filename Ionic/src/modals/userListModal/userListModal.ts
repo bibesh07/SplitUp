@@ -30,6 +30,7 @@ export class UserListModal {
   allEmails: any = [];
   showEmails:any = [];
   billDetails:any;
+  isCompleted = false;
 
   setEmails = () => {
     this._userService.getAllUsersEmail().subscribe(response => {
@@ -77,11 +78,11 @@ export class UserListModal {
   }
 
   dismiss = () => {
-    this.viewCtrl.dismiss();
+    this.viewCtrl.dismiss(this.isCompleted);
   }
 
   submitBill = () => {
-    console.log(this.billDetails);
+    this.isCompleted = true;
     this._transactionService.SaveTransaction(this.billDetails, this.selectedEmails)
       .subscribe(response => {
         if(response.status  == "Success" ) {
@@ -89,7 +90,7 @@ export class UserListModal {
         }
       });
 
-    this.NavController.setRoot(HomePage);
+    this.dismiss();
   }
 
   toastSuccessMessage = (message) => {

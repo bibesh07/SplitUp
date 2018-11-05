@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 public class User
@@ -16,7 +17,9 @@ public class User
 
         public String Token { get; set; }
 
+        [NotMapped]
         public IEnumerable<Transaction> Transactions { get; set; }
 
+        [NotMapped]
         public IEnumerable<Credit> Creditors { get; set; }
     }

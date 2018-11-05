@@ -23,7 +23,8 @@ using System.Text;
         public DateTime PurchaseDate { get; set; }
 
         public string Memo { get; set; }
-
+        
+        [NotMapped]
         public IEnumerable<Credit> Creditors { get; set; }
     }
 

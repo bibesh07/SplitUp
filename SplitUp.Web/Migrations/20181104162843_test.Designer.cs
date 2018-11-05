@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SplitUp.Web.Data;
 
 namespace SplitUp.Web.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20181104162843_test")]
+    partial class test
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -100,8 +102,8 @@ namespace SplitUp.Web.Migrations
                     b.ToTable("Users");
 
                     b.HasData(
-                        new { Id = 1, Email = "bibesh.kc@selu.edu", FullName = "Bibesh KC", Gender = "M", Password = "bafal123", Token = "8ac79302-58e9-4f85-9fa2-0e663ccbc2f4" },
-                        new { Id = 2, Email = "pratikshya.timalsina@selu.edu", FullName = "Pratikshya Timalsina", Gender = "F", Password = "dallu123", Token = "e2aa62d8-72ba-4847-ac6e-287857a5bdcd" }
+                        new { Id = 1, Email = "bibesh.kc@selu.edu", FullName = "Bibesh KC", Gender = "M", Password = "bafal123", Token = "1aa07ae9-ca6b-49b7-8fdb-0b5eb14ca500" },
+                        new { Id = 2, Email = "pratikshya.timalsina@selu.edu", FullName = "Pratikshya Timalsina", Gender = "F", Password = "dallu123", Token = "accde4d4-4c64-4740-86c6-a97846dfa89b" }
                     );
                 });
 

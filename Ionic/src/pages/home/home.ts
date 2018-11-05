@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {AlertController, NavController, ToastController} from 'ionic-angular';
 import { ModalController } from "ionic-angular";
 import { BillDetailsModal } from "../../modals/billDetailsModal/billDetailsModal";
 import {UserService} from "../../services/user.service";
+import {TransactionService} from "../../services/transaction.service";
+import {ViewBillDetailsModal} from "../../modals/viewBillDetailsModal/viewBillDetailsModal";
 
 @Component({
   selector: 'page-home',
@@ -13,20 +15,16 @@ export class HomePage {
   username: string;
   genderIcon: string;
   gender: string;
-  amountToPay: any;
-  amountToReceive: any;
-
-  history= [
-    {'icon': 'checkmark-circle', 'message': 'Amrit Subedi paid $45.89 for Walmart bill of 14th August'},
-    {'icon': 'checkmark-circle', 'message': 'Pratikshya Timalsina paid $15.89 for Restaurant bill of 11th September'},
-    {'icon': 'add-circle', 'message': 'Sizan Tiwari added you in walmart Bill of total $13.33 on 4th August'},
-    {'icon': 'checkmark-circle', 'message': 'Amrit Subedi paid $45.89 for Walmart bill of 14th August'},
-    {'icon': 'add-circle', 'message': 'Amrit Subedi added you in Grocery bill of $45.89 as of 14th August'},
-  ];
+  amountToPay?: any;
+  amountToReceive?: any;
+  allBills: any;
 
   constructor(public navCtrl: NavController,
               public modalController: ModalController,
-              public userService: UserService) {
+              public userService: UserService,
+              public transactionService: TransactionService,
+              public alertCtrl: AlertController,
+              public toastCtrl: ToastController) {
       this.username = localStorage.getItem('fullName');
       this.gender = localStorage.getItem('gender');
       if(this.gender == 'M') {
@@ -36,15 +34,83 @@ export class HomePage {
       } else {
         this.genderIcon = "https://image.flaticon.com/icons/png/512/23/23228.png";
       }
-       userService.GetAmounts().subscribe(
-        response => {
-               this.amountToPay = response.amountToPay;
-                this.amountToReceive = response.amountToReceive;
-        });
+      this.setAmounts();
+      this.getAllBills();
   }
 
-  openModal() {
+  setAmounts = () => {
+    this.userService.GetAmounts().subscribe(
+      response => {
+        this.amountToPay = response['amountToPay'];
+        this.amountToReceive = response['amountToReceive'];
+      });
+  }
+
+  getAllBills = () => {
+    this.transactionService.GetAllBills().subscribe(
+      response => {
+        response.map(u => {
+          let dateObj = new Date(u.purchaseDate);
+          u.purchaseDate = (dateObj.getMonth()+1) +
+            '/'+dateObj.getDate() + '/' + dateObj.getFullYear();
+        });
+        this.allBills = response;
+        console.log(response);
+      }
+    );
+  }
+
+  openModal = () => {
     let amountModal = this.modalController.create(BillDetailsModal);
+    amountModal.onDidDismiss(() => {
+      this.setAmounts();
+      this.getAllBills();
+    })
     amountModal.present();
+  }
+
+  DeleteTranscation (transactionId) {
+    let alert = this.alertCtrl.create({
+      title: "Delete Transaction",
+      subTitle: "Are you sure you want to delete the transaction?",
+      buttons: [
+        {
+          text: 'No',
+        },
+        {
+          text: 'Yes',
+          handler: () => {
+            this.proceedTransactionDeletion(transactionId);
+          }
+        }
+      ]
+    });
+    alert.present();
+  }
+
+  proceedTransactionDeletion = (transactionId) => {
+    this.transactionService.DeleteTransactions(transactionId).subscribe(response => {
+      if(response.status == "Success") {
+        this.setAmounts();
+        this.getAllBills();
+
+        let toast = this.toastCtrl.create({
+          message: response.message,
+          duration: 3000,
+          position: 'bottom',
+        });
+
+        toast.present();
+      }
+    })
+  }
+
+  openBillDetails = (transactionId) => {
+    let viewBillDetails = this.modalController.create(ViewBillDetailsModal, {billId: transactionId});
+    viewBillDetails.onDidDismiss(() => {
+      this.setAmounts();
+      this.getAllBills();
+    })
+    viewBillDetails.present();
   }
 }

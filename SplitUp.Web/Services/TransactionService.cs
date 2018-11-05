@@ -31,13 +31,21 @@ namespace SplitUp.Web.Services
 
             foreach(var abc in transactions)
             {
-                total += abc.Creditors.Where(s => s.Status == 0).Sum(a => a.AmountToPay);
+                total += abc.Creditors.Where(s => s.Status == 0 && s.CreditorId != userId).Sum(a => a.AmountToPay);
             }
             return total;
         }
 
-        public IEnumerable<Transaction> GetAllBills(int userId) =>  _dataContext.Transactions.Include(c => c.Creditors).ToList();
+        public IEnumerable<Transaction> GetAllBills(int userId) =>  _dataContext.Transactions.Where(i => i.UserId == userId).ToList();
 
-        public Transaction SetBillDetails(int transactionId) => _dataContext.Transactions.Include(c => c.Creditors).SingleOrDefault(t => t.Id == transactionId);
+        public Transaction SetBillDetails(int transactionId) => _dataContext.Transactions.Include(c => c.Creditors).Where(t => t.Id == transactionId).Single();
+
+        public void DeleteTransaction(int transactionId)
+        {
+            Transaction transactionToRemove = _dataContext.Transactions.Where(u => u.Id == transactionId).Single();
+            _dataContext.Remove(transactionToRemove);
+
+            _dataContext.SaveChanges();
+        }
     }
 }

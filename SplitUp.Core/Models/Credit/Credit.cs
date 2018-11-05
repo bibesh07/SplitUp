@@ -29,4 +29,5 @@ public class Credit
     public int Status { get; set; }
 
     public DateTime? UpdatedDate { get; set; }
+
 }

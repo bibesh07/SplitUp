@@ -10,5 +10,9 @@ namespace SplitUp.Web.Services
         void InsertCreditors(Credit details, String CreditorEmail);
 
         double GetAmountToPay(int UserId);
+
+        void DeleteCreditors(int transactionId);
+
+        IEnumerable<Credit> GetCreditorsByTransaction(int transactionId);
     }
 }

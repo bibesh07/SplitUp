@@ -18,6 +18,9 @@ namespace SplitUp.Web.Services
 
         public User GetUserByEmail(string email) => _dbContext.Users.FirstOrDefault(u => u.Email == email);
 
+        public User GetUserById(int userId) => _dbContext.Users.FirstOrDefault(u => u.Id == userId);
+
+
         public User Login(string email, string password)
         {
             var user = GetUserByEmail(email);

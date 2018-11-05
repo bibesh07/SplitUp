@@ -14,5 +14,7 @@ namespace SplitUp.Web.Services
         void Register(User user);
 
         IEnumerable<string> GetAllUsersEmail();
+
+        User GetUserById(int userId);
     }
 }
