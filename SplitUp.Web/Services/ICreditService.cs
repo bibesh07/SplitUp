@@ -14,5 +14,7 @@ namespace SplitUp.Web.Services
         void DeleteCreditors(int transactionId);
 
         IEnumerable<Credit> GetCreditorsByTransaction(int transactionId);
+
+        void UpdateCreditorTransaction(int transactionId, int creditorId);
     }
 }

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {NavParams, ViewController} from 'ionic-angular';
+import {AlertController, NavParams, ToastController, ViewController} from 'ionic-angular';
 import { ModalController} from "ionic-angular";
 import {TransactionService} from "../../services/transaction.service";
 import {CreditService} from "../../services/credit.service";
@@ -10,9 +10,11 @@ import {CreditService} from "../../services/credit.service";
 
 export class ViewBillDetailsModal {
   constructor(public viewCtrl: ViewController,
-              public _transactionService: TransactionService,
+              public _creditService: CreditService,
               public navParam: NavParams,
-              public _creditSerice: CreditService) {
+              public _creditSerice: CreditService,
+              public alertCtrl: AlertController,
+              public toastCtrl: ToastController) {
     this.getBillDetail(this.navParam.get('billId'));
     console.log("I am here");
   }
@@ -23,8 +25,10 @@ export class ViewBillDetailsModal {
   memo: any;
   purchaseDate: any;
   noOfIndividuals: any;
-  totalAmountRemaining: any = 0;
+  totalAmountRemaining: any;
   creditors: any;
+
+  loggedInUserId = localStorage.getItem('userId');
 
   dismiss() {
     this.viewCtrl.dismiss();
@@ -41,6 +45,7 @@ export class ViewBillDetailsModal {
       this.purchaseDate = (this.purchaseDate.getMonth()+1) +
         '/'+this.purchaseDate.getDate() + '/' + this.purchaseDate.getFullYear();
       this.noOfIndividuals = this.billDetails.noOfIndividuals;
+      this.totalAmountRemaining = 0;
       response.map(u => {
         console.log(!u.status + " " + u.creditorId + " " + localStorage.getItem('userId'));
         if(!u.status && u.creditorId != localStorage.getItem('userId')) {
@@ -49,6 +54,41 @@ export class ViewBillDetailsModal {
       });
 
       this.creditors = response;
+    })
+  }
+
+  UpdateCreditorTransaction(transactionId, creditorId) {
+    let alert = this.alertCtrl.create({
+      title: "User Paid",
+      subTitle: "Are you sure you want to complete the transaction with this user?",
+      buttons: [
+        {
+          text: 'No',
+        },
+        {
+          text: 'Yes',
+          handler: () => {
+            this.proceedUserTransactionCompletion(transactionId, creditorId);
+          }
+        }
+      ]
+    });
+    alert.present();
+  }
+
+  proceedUserTransactionCompletion(transactionId, creditorId) {
+    this._creditSerice.UpdateCreditorTransaction(transactionId, creditorId).subscribe(response => {
+      if(response.status == "Success") {
+        this.getBillDetail(transactionId);
+
+        let toast = this.toastCtrl.create({
+          message: response.message,
+          duration: 3000,
+          position: 'bottom',
+        });
+
+        toast.present();
+      }
     })
   }
 }

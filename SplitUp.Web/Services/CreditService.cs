@@ -40,5 +40,14 @@ namespace SplitUp.Web.Services
             var credtiors = _dataContext.Creditors.AsNoTracking().Include(c => c.Creditor).Include(t => t.Transaction).Where(t => t.TransactionId == transactionId).ToList();
             return credtiors;
         }
+
+        public void UpdateCreditorTransaction(int transactionId,int creditorId)
+        {
+            var creditor = _dataContext.Creditors.Where(u => u.CreditorId == creditorId && u.TransactionId == transactionId).FirstOrDefault();
+            creditor.UpdatedDate = new DateTime();
+            creditor.Status = 1;
+
+            _dataContext.SaveChanges();
+        }
     }
 }

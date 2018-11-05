@@ -12,4 +12,5 @@ export class CreditService {
 
   GetCreditorsByTransactionId = (transactionId): Observable<any> => this.http.get<any>(this.SITEURL + 'Credit/GetCreditorsByTransaction/' + transactionId);
 
+  UpdateCreditorTransaction = (transactionId, creditorId):Observable<any> => this.http.get(this.SITEURL + 'Credit/UpdateCreditorTransaction/' + transactionId + '/' + creditorId);
 }

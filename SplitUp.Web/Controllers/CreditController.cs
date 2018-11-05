@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SplitUp.Core.Models.Transaction;
 using SplitUp.Web.Services;
 
@@ -24,14 +25,22 @@ namespace SplitUp.Web.Controllers
         }
 
         [HttpGet("GetCreditorsByTransaction/{transactionId}")]
-        public IActionResult GetCreditorsByTransaction(int transactionId) {
-            var creditors = _creditService.GetCreditorsByTransaction(transactionId);
-            
-            //foreach(var credit in creditors)
-            //{
-            //    billDetail.NoOfIndividuals = credit.Transaction.NoOfIndividuals
-            //}
-            return Ok(creditors);
+        public IActionResult GetCreditorsByTransaction(int transactionId) => Ok(_creditService.GetCreditorsByTransaction(transactionId));
+
+        [HttpGet("UpdateCreditorTransaction/{transactionId}/{creditorId}")]
+        public IActionResult UpdateCreditorTransaction(int transactionId, int creditorId)
+        {
+            _creditService.UpdateCreditorTransaction(transactionId, creditorId);
+            return Ok(this._transactionUpdatedMessage());
+        }
+
+        private String _transactionUpdatedMessage()
+        {
+            return JsonConvert.SerializeObject(new
+            {
+                status = "Success",
+                message = "Transaction with the user has been succesfully completed.",
+            });
         }
     }
 }

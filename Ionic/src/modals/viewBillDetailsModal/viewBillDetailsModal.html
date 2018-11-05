@@ -27,7 +27,9 @@
               <ion-label>{{users.creditor.fullName}}   <ion-badge>$ {{users.amountToPay}}</ion-badge></ion-label>
             </ion-col>
             <ion-col>
-              <button ion-button item-right small> <ion-icon name="checkbox"></ion-icon>&nbsp; PAY</button>
+              <button ion-button item-right small [disabled]="users.status || this.loggedInUserId == users.creditorId" (click)="UpdateCreditorTransaction(users.transactionId, users.creditorId)">
+                <ion-icon name="checkbox"></ion-icon>&nbsp; PAY
+              </button>
             </ion-col>
           </ion-row>
         </ion-grid>
