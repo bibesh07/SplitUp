@@ -14,5 +14,7 @@ export class CreditService {
 
   UpdateCreditorTransaction = (transactionId, creditorId):Observable<any> => this.http.get(this.SITEURL + 'Credit/UpdateCreditorTransaction/' + transactionId + '/' + creditorId);
 
-  pingTransaction = (transactionId, creditorId):Observable<any> => this.http.get(this.SITEURL + 'Credit/PingTransaction/' + transactionId + '/' + creditorId);
+  pingTransaction = (transactionId, creditorId):Observable<any> => this.http.get(this.SITEURL + 'Credit/PingTheUser/' + transactionId + '/' + creditorId);
+
+  cancelPing = (transactionId, creditorId):Observable<any> => this.http.get(this.SITEURL + 'Credit/cancelPing/' + transactionId + '/' + creditorId);
 }

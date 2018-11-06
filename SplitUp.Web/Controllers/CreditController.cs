@@ -42,5 +42,29 @@ namespace SplitUp.Web.Controllers
                 message = "Transaction with the user has been succesfully completed.",
             });
         }
+
+        [HttpGet("PingTheUser/{transactionId}/{userId}")]
+        public IActionResult PingTheUser(int transactionId,int userId)
+        {
+            _creditService.Ping(transactionId, userId);
+
+            return Ok(JsonConvert.SerializeObject(new
+            {
+                status = "Success",
+                message = "User has been Pinged.",
+            }));
+        }
+
+        [HttpGet("CancelPing/{transactionId}/{userId}")]
+        public IActionResult CancelPing(int transactionId, int userId)
+        {
+            _creditService.CancelPing(transactionId, userId);
+
+            return Ok(JsonConvert.SerializeObject(new
+            {
+                status = "Success",
+                message = "You have cancelled user's Ping.",
+            }));
+        }
     }
 }

@@ -2,35 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dcdf6c8-c633-48f0-a5d9-d365a14a88bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SplitUp/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ionic/src/services/credit.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/services/credit.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ionic/src/services/transaction.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/services/transaction.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Controllers/TransactionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Controllers/TransactionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ionic/src/services/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Ionic/src/services/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Core/Models/Credit/Credit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/Models/Credit/Credit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Core/obj/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Controllers/CreditController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Controllers/CreditController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Controllers/UsersController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/CreditService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/CreditService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/ICreditService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/ICreditService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/ITransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/ITransactionService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Services/TransactionService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Services/TransactionService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/SplitUp.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/SplitUp.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Core.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/bin/Debug/netcoreapp2.1/SplitUp.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/Debug/netcoreapp2.1/SplitUp.Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/SplitUp.Web.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/SplitUp.Web.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SplitUp.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SplitUp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SplitUp.sln" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +51,8 @@
       <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="114" selection-end-column="3" />
+            <state relative-caret-position="209">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -56,16 +60,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="69" column="13" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="216">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/plugins/cordova-plugin-device/doc/es/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="billDetailsModal.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
-                <element signature="e#1498#1504#0" expanded="true" />
-                <element signature="e#2228#2234#0" expanded="true" />
-                <element signature="e#2388#2394#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusBarProxy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewCreditorBillDetails.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -73,22 +111,33 @@
       <file leaf-file-name="viewBillDetailsModal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="340">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="n#ion-navbar#0;n#ion-header#0;n#!!top" />
+                <element signature="n#style#0;n#button#0;n#ion-label#0;n#ion-col#0;n#ion-row#0;n#ion-grid#0;n#ion-list#0;n#ion-card-content#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
+                <element signature="e#1084#1090#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="billsToPay.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html">
+      <file leaf-file-name="viewCreditorBillDetails.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="credit.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ionic/src/services/credit.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#995#1001#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,56 +146,11 @@
       <file leaf-file-name="viewBillDetailsModal.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="289">
               <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="billsToPay.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewCreditorBillDetails.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
-              <folding>
-                <element signature="e#1306#1312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewCreditorBillDetails.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -165,9 +169,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>login.css</find>
-      <find>nav</find>
-      <find>content</find>
       <find>password</find>
       <find>java</find>
       <find>environmen</find>
@@ -189,12 +190,15 @@
       <find>recepitTitle</find>
       <find>amountPaid</find>
       <find>ToastController</find>
-      <find>console</find>
       <find>ngFor</find>
       <find>ngfor</find>
       <find>ng</find>
       <find>GetAmounts</find>
       <find>loggedInUserId</find>
+      <find>console</find>
+      <find>response.na</find>
+      <find>console.log</find>
+      <find>`</find>
     </findStrings>
     <replaceStrings>
       <replace>registerForm</replace>
@@ -227,21 +231,21 @@
         <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/login/login.html" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.html" />
-        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.html" />
-        <option value="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html" />
-        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/services/transaction.service.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/services/credit.service.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html" />
         <option value="$PROJECT_DIR$/Ionic/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts" />
-        <option value="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/services/user.service.ts" />
         <option value="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html" />
+        <option value="$PROJECT_DIR$/Ionic/src/services/credit.service.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/pages/home/home.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts" />
+        <option value="$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts" />
       </list>
     </option>
   </component>
@@ -269,7 +273,7 @@
       <path value="$PROJECT_DIR$/Ionic/plugins/cordova-plugin-whitelist/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1331" />
     <option name="height" value="1047" />
@@ -303,13 +307,6 @@
               <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
               <item name="Ionic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="modals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,28 +324,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="modals" type="462c0819:PsiDirectoryNode" />
               <item name="viewCreditorBillDetails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="billsToPay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SplitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SplitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="Ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -415,19 +390,18 @@
       <workItem from="1541123110471" duration="1612000" />
       <workItem from="1541164331655" duration="30613000" />
       <workItem from="1541380896632" duration="4531000" />
-      <workItem from="1541444984523" duration="7251000" />
+      <workItem from="1541444984523" duration="14684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118116000" />
+    <option name="totallyTimeSpent" value="125549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13856691" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13856691" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -435,7 +409,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2647059" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2647059" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.05970149" />
@@ -458,16 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="6" selection-start-line="91" selection-start-column="4" selection-end-line="104" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -713,16 +677,6 @@
     <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/modals/userListModal/userListModal.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -737,16 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,6 +725,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="69" column="13" selection-start-line="51" selection-start-column="1" selection-end-line="69" selection-end-column="13" />
+          <folding>
+            <element signature="e#1498#1504#0" expanded="true" />
+            <element signature="e#2228#2234#0" expanded="true" />
+            <element signature="e#2388#2394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+          <folding>
+            <element signature="e#995#1001#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/services/transaction.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -791,78 +777,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/user.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="114" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="51" selection-start-column="1" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <element signature="e#1498#1504#0" expanded="true" />
-            <element signature="e#2228#2234#0" expanded="true" />
-            <element signature="e#2388#2394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/services/credit.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="629">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="18" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.html">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/services/credit.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#995#1001#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="340">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="n#ion-navbar#0;n#ion-header#0;n#!!top" />
+            <element signature="n#style#0;n#button#0;n#ion-label#0;n#ion-col#0;n#ion-row#0;n#ion-grid#0;n#ion-list#0;n#ion-card-content#0;n#ion-card#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="e#1084#1090#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/billsToPay/billsToPay.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="289">
           <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
@@ -870,23 +826,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewBillDetailsModal/viewBillDetailsModal.html">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
-            <element signature="n#ion-navbar#0;n#ion-header#0;n#!!top" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.html">
+    <entry file="file://$PROJECT_DIR$/Ionic/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
+        <state relative-caret-position="216">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/plugins/cordova-plugin-device/doc/es/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/billDetailsModal/billDetailsModal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
-            <element signature="e#1306#1312#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ionic/src/modals/viewCreditorBillDetails/viewCreditorBillDetails.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
         </state>
       </provider>
     </entry>

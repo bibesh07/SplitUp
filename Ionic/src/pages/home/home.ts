@@ -41,8 +41,8 @@ export class HomePage {
   setAmounts = () => {
     this.userService.GetAmounts().subscribe(
       response => {
-        this.amountToPay = response['amountToPay'];
-        this.amountToReceive = response['amountToReceive'];
+        this.amountToPay = response['amountToPay'].toFixed(2);
+        this.amountToReceive = response['amountToReceive'].toFixed(2);
       });
   }
 
@@ -55,7 +55,6 @@ export class HomePage {
             '/'+dateObj.getDate() + '/' + dateObj.getFullYear();
         });
         this.allBills = response;
-        console.log(response);
       }
     );
   }

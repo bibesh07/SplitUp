@@ -21,7 +21,7 @@ export class BillsToPay {
               public modalController: ModalController) {
     this.getUserIncludedBills();
   }
-
+  loggedInUser = localStorage.getItem("userId");
   getUserIncludedBills = () => {
     this.transactionService.getUserIncludedBills().subscribe(
       response => {

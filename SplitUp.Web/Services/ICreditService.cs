@@ -18,5 +18,9 @@ namespace SplitUp.Web.Services
         void UpdateCreditorTransaction(int transactionId, int creditorId);
 
         int[] GetUserIncludedTransactionIds(int userId);
+
+        void Ping(int transactionId, int userId);
+
+        void CancelPing(int transactionId, int userId);
     }
 }

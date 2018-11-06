@@ -114,5 +114,13 @@ namespace SplitUp.Web.Controllers
 
             return Ok(amounts);
         }
+
+        [HttpGet("GetNameById/{userId}")]
+        public IActionResult GetNameById(int userId) {
+            return Ok(JsonConvert.SerializeObject(new
+            {
+                name = _userService.GetUserById(userId).FullName
+            }));
+        }
     }
 }

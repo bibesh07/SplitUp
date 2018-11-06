@@ -42,4 +42,6 @@ export class UserService {
   GetAmounts = () => {
     return this.http.get(this.SITEURL + "users/GetAmounts/" + localStorage.getItem('userId'));
   }
+
+  getNameById = (userId) => {return  this.http.get(this.SITEURL + "users/GetNameById/" + userId)};
 }

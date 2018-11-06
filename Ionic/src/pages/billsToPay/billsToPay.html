@@ -8,8 +8,10 @@
 </ion-header>
 <ion-content padding>
   <img height="50%" width="100%" src="https://image.freepik.com/free-vector/hand-giving-money-bag-to-other-hand_23-2147510248.jpg"/>
+  <h1>Bills you pay</h1>
+  <hr/>
   <ion-card *ngFor="let bill of userIncludedBills">
-    <ion-card-content>
+    <ion-card-content *ngIf="loggedInUser != bill.userId">
       <ion-grid>
         <ion-row>
           <ion-col col-7>

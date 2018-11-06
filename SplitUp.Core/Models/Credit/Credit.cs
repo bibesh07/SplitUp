@@ -28,6 +28,8 @@ public class Credit
 
     public int Status { get; set; }
 
+    public int Ping { get; set; }
+
     public DateTime? UpdatedDate { get; set; }
 
 }

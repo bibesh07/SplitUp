@@ -50,7 +50,22 @@ namespace SplitUp.Web.Services
             _dataContext.SaveChanges();
         }
 
-
         public int[] GetUserIncludedTransactionIds(int userId) => _dataContext.Creditors.Where(a => a.CreditorId == userId).Select(t => t.TransactionId).ToArray<int>();
+
+        public void Ping(int transactionId, int userId)
+        {
+            var pingUser = _dataContext.Creditors.Where(u => u.CreditorId == userId && u.TransactionId == transactionId).FirstOrDefault();
+            pingUser.Ping = 1;
+
+            _dataContext.SaveChanges();
+        }
+
+        public void CancelPing(int transactionId, int userId)
+        {
+            var pingUser = _dataContext.Creditors.Where(u => u.CreditorId == userId && u.TransactionId == transactionId).FirstOrDefault();
+            pingUser.Ping = 0;
+
+            _dataContext.SaveChanges();
+        }
     }
 }

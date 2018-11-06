@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {AlertController, NavParams, ToastController, ViewController} from 'ionic-angular';
 import {CreditService} from "../../services/credit.service";
+import {UserService} from "../../services/user.service";
 
 @Component({
   templateUrl: 'viewCreditorBillDetails.html',
@@ -10,6 +11,7 @@ export class ViewCreditorBillDetails {
   constructor(public viewCtrl: ViewController,
               public navParam: NavParams,
               public _creditService: CreditService,
+              public _userService : UserService,
               public alertCtrl: AlertController,
               public toastCtrl: ToastController) {
     this.getBillDetail(this.navParam.get('billId'));
@@ -23,6 +25,7 @@ export class ViewCreditorBillDetails {
   noOfIndividuals: any;
   totalAmountRemaining: any;
   creditors: any;
+  billOwnerName: any = "";
 
   loggedInUserId = localStorage.getItem('userId');
 
@@ -32,7 +35,6 @@ export class ViewCreditorBillDetails {
 
   getBillDetail(billId) {
     this._creditService.GetCreditorsByTransactionId(billId).subscribe(response => {
-      console.log(response);
       this.billDetails = response[0].transaction;
       this.billName = this.billDetails.billName;
       this.amountPaid = this.billDetails.amountPaid;
@@ -42,13 +44,12 @@ export class ViewCreditorBillDetails {
         '/'+this.purchaseDate.getDate() + '/' + this.purchaseDate.getFullYear();
       this.noOfIndividuals = this.billDetails.noOfIndividuals;
       this.totalAmountRemaining = 0;
+      this.GetBillOwnerName(this.billDetails.userId);
       response.map(u => {
-        console.log(!u.status + " " + u.creditorId + " " + localStorage.getItem('userId'));
         if(!u.status && u.creditorId != localStorage.getItem('userId')) {
           this.totalAmountRemaining += u.amountToPay;
         }
       });
-
       this.creditors = response;
     })
   }
@@ -86,5 +87,11 @@ export class ViewCreditorBillDetails {
         toast.present();
       }
     })
+  }
+
+  GetBillOwnerName = (userId) => {
+    this._userService.getNameById(userId).subscribe(response => {
+      this.billOwnerName = response['name'];
+    });
   }
 }

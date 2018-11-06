@@ -43,10 +43,7 @@ export class BillDetailsModal implements OnInit {
     usersList.onDidDismiss(response => {
       console.log(response);
        if (response) {
-         console.log("I am about To dismiss");
          this.dismiss();
-       } else {
-         console.log("I am not about to dismiss");
        }
     })
     usersList.present();

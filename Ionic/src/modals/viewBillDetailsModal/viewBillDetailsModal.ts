@@ -24,7 +24,7 @@ export class ViewBillDetailsModal {
   memo: any;
   purchaseDate: any;
   noOfIndividuals: any;
-  totalAmountRemaining: any;
+  totalAmountRemaining = 0;
   creditors: any;
 
   loggedInUserId = localStorage.getItem('userId');
@@ -44,14 +44,11 @@ export class ViewBillDetailsModal {
       this.purchaseDate = (this.purchaseDate.getMonth()+1) +
         '/'+this.purchaseDate.getDate() + '/' + this.purchaseDate.getFullYear();
       this.noOfIndividuals = this.billDetails.noOfIndividuals;
-      this.totalAmountRemaining = 0;
       response.map(u => {
-        console.log(!u.status + " " + u.creditorId + " " + localStorage.getItem('userId'));
         if(!u.status && u.creditorId != this.loggedInUserId) {
           this.totalAmountRemaining += u.amountToPay;
         }
       });
-
       this.creditors = response;
     })
   }
@@ -77,6 +74,22 @@ export class ViewBillDetailsModal {
 
   proceedUserTransactionCompletion(transactionId, creditorId) {
     this._creditSerice.UpdateCreditorTransaction(transactionId, creditorId).subscribe(response => {
+      if(response.status == "Success") {
+        this.getBillDetail(transactionId);
+
+        let toast = this.toastCtrl.create({
+          message: response.message,
+          duration: 3000,
+          position: 'bottom',
+        });
+
+        toast.present();
+      }
+    })
+  }
+
+  cancelPing(transactionId, creditorId) {
+    this._creditSerice.cancelPing(transactionId, creditorId).subscribe(response => {
       if(response.status == "Success") {
         this.getBillDetail(transactionId);
 

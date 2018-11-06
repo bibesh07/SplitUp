@@ -24,7 +24,11 @@
         <ion-grid>
           <ion-row>
             <ion-col col-8>
-              <ion-label>{{users.creditor.fullName}}   <ion-badge>$ {{users.amountToPay}}</ion-badge></ion-label>
+              <ion-label>{{users.creditor.fullName}}   <ion-badge>$ {{users.amountToPay}}
+              </ion-badge> <br/><button ion-button small (click)="cancelPing(users.transactionId, users.creditorId)" style="background: orange" color="orange" *ngIf="users.ping == 1">
+                <ion-icon name="close-circle"></ion-icon> &nbsp; User Pinged
+              </button>
+              </ion-label>
             </ion-col>
             <ion-col>
               <button ion-button item-right small [disabled]="users.status || this.loggedInUserId == users.creditorId" (click)="UpdateCreditorTransaction(users.transactionId, users.creditorId)">
