@@ -25,17 +25,17 @@ export class HomePage {
               public transactionService: TransactionService,
               public alertCtrl: AlertController,
               public toastCtrl: ToastController) {
-      this.username = localStorage.getItem('fullName');
-      this.gender = localStorage.getItem('gender');
-      if(this.gender == 'M') {
-        this.genderIcon = "https://www.shareicon.net/download/2016/11/09/851666_user_512x512.png";
-      } else if (this.gender == 'F') {
-        this.genderIcon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThBNKVpuJZE0JcC6XD4rhGVgrIGQcBqDZ805aWiRk_EWZXB6cg";
-      } else {
-        this.genderIcon = "https://image.flaticon.com/icons/png/512/23/23228.png";
-      }
-      this.setAmounts();
-      this.getAllBills();
+    this.username = localStorage.getItem('fullName');
+    this.gender = localStorage.getItem('gender');
+    if(this.gender == 'M') {
+      this.genderIcon = "https://www.shareicon.net/download/2016/11/09/851666_user_512x512.png";
+    } else if (this.gender == 'F') {
+      this.genderIcon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThBNKVpuJZE0JcC6XD4rhGVgrIGQcBqDZ805aWiRk_EWZXB6cg";
+    } else {
+      this.genderIcon = "https://image.flaticon.com/icons/png/512/23/23228.png";
+    }
+    this.setAmounts();
+    this.getAllBills();
   }
 
   setAmounts = () => {

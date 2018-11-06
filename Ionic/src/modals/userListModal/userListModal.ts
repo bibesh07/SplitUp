@@ -19,7 +19,7 @@ export class UserListModal {
               public _transactionService: TransactionService,
               public NavController: NavController,
               public toastController: ToastController,
-              ) {
+  ) {
     this.setEmails();
     this.showEmails = this.allEmails;
     this.billDetails = params.get('billDetails');

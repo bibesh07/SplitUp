@@ -42,9 +42,9 @@ export class BillDetailsModal implements OnInit {
     let usersList = this.modalController.create(UserListModal, {billDetails: this.billDetails});
     usersList.onDidDismiss(response => {
       console.log(response);
-       if (response) {
-         this.dismiss();
-       }
+      if (response) {
+        this.dismiss();
+      }
     })
     usersList.present();
   }

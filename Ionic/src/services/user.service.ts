@@ -7,7 +7,7 @@ export class UserService {
 
   constructor(private http: HttpClient) {}
 
-   SITEURL = "https://localhost:44388/api/";
+  SITEURL = "https://localhost:44388/api/";
 
 
   is_User_LoggedIn() {
@@ -28,9 +28,9 @@ export class UserService {
     return this.http.post<any>(
       this.SITEURL + 'users/register',
       {'Email': user.email,
-              'FullName': user.name,
-              'Password': user.password,
-              'Gender': user.gender
+        'FullName': user.name,
+        'Password': user.password,
+        'Gender': user.gender
       }
     )
   }

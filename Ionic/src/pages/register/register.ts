@@ -65,6 +65,6 @@ export class RegisterPage implements OnInit{
   }
 
   loginPage() {
-      this.NavController.pop();
+    this.NavController.pop();
   }
 }
