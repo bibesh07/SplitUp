@@ -1,18 +1,15 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {AlertController, NavParams, ToastController, ViewController} from 'ionic-angular';
-import { ModalController} from "ionic-angular";
-import {TransactionService} from "../../services/transaction.service";
 import {CreditService} from "../../services/credit.service";
 
 @Component({
-  templateUrl: 'viewBillDetailsModal.html',
+  templateUrl: 'viewCreditorBillDetails.html',
 })
 
-export class ViewBillDetailsModal {
+export class ViewCreditorBillDetails {
   constructor(public viewCtrl: ViewController,
-              public _creditService: CreditService,
               public navParam: NavParams,
-              public _creditSerice: CreditService,
+              public _creditService: CreditService,
               public alertCtrl: AlertController,
               public toastCtrl: ToastController) {
     this.getBillDetail(this.navParam.get('billId'));
@@ -34,7 +31,7 @@ export class ViewBillDetailsModal {
   }
 
   getBillDetail(billId) {
-    this._creditSerice.GetCreditorsByTransactionId(billId).subscribe(response => {
+    this._creditService.GetCreditorsByTransactionId(billId).subscribe(response => {
       console.log(response);
       this.billDetails = response[0].transaction;
       this.billName = this.billDetails.billName;
@@ -47,7 +44,7 @@ export class ViewBillDetailsModal {
       this.totalAmountRemaining = 0;
       response.map(u => {
         console.log(!u.status + " " + u.creditorId + " " + localStorage.getItem('userId'));
-        if(!u.status && u.creditorId != this.loggedInUserId) {
+        if(!u.status && u.creditorId != localStorage.getItem('userId')) {
           this.totalAmountRemaining += u.amountToPay;
         }
       });
@@ -56,10 +53,10 @@ export class ViewBillDetailsModal {
     })
   }
 
-  UpdateCreditorTransaction(transactionId, creditorId) {
+  pingTransaction(transactionId, creditorId) {
     let alert = this.alertCtrl.create({
-      title: "User Paid",
-      subTitle: "Are you sure you want to complete the transaction with this user?",
+      title: "Paid Bill?",
+      subTitle: "Are you sure you want to ping this user?",
       buttons: [
         {
           text: 'No',
@@ -67,7 +64,7 @@ export class ViewBillDetailsModal {
         {
           text: 'Yes',
           handler: () => {
-            this.proceedUserTransactionCompletion(transactionId, creditorId);
+            this.proceedPing(transactionId, creditorId);
           }
         }
       ]
@@ -75,8 +72,8 @@ export class ViewBillDetailsModal {
     alert.present();
   }
 
-  proceedUserTransactionCompletion(transactionId, creditorId) {
-    this._creditSerice.UpdateCreditorTransaction(transactionId, creditorId).subscribe(response => {
+  proceedPing(transactionId, creditorId) {
+    this._creditService.pingTransaction(transactionId, creditorId).subscribe(response => {
       if(response.status == "Success") {
         this.getBillDetail(transactionId);
 

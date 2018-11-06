@@ -16,5 +16,7 @@ namespace SplitUp.Web.Services
         Transaction SetBillDetails(int transactionId);
 
         void DeleteTransaction(int transactionId);
+
+        IEnumerable<Transaction> GetCreditorIncludedTransaction(int[] transactionId);
     }
 }

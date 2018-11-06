@@ -49,5 +49,8 @@ namespace SplitUp.Web.Services
 
             _dataContext.SaveChanges();
         }
+
+
+        public int[] GetUserIncludedTransactionIds(int userId) => _dataContext.Creditors.Where(a => a.CreditorId == userId).Select(t => t.TransactionId).ToArray<int>();
     }
 }

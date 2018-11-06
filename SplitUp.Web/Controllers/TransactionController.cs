@@ -84,5 +84,9 @@ namespace SplitUp.Web.Controllers
 
         [HttpGet("GetCreditorsByTransaction/{transactionId}")]
         public IActionResult GetCreditorsByTransaction(int transactionId) => Ok(_creditService.GetCreditorsByTransaction(transactionId));
+
+        [HttpGet("GetUserIncludedTransactions/{userId}")]
+        //Include User
+        public IActionResult GetUserIncludedTransaction(int userId) => Ok(_transactionService.GetCreditorIncludedTransaction(_creditService.GetUserIncludedTransactionIds(userId)));
     }
 }

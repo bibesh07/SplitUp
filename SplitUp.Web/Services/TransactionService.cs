@@ -47,5 +47,7 @@ namespace SplitUp.Web.Services
 
             _dataContext.SaveChanges();
         }
+
+        public IEnumerable<Transaction> GetCreditorIncludedTransaction(int[] transactionId) =>  _dataContext.Transactions.Where(u => transactionId.Contains(u.Id)).ToList();
     }
 }

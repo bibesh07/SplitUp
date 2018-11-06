@@ -8,6 +8,7 @@ import { UserService} from "../services/user.service";
 import { LoginPage } from "../pages/login/login";
 import { AlertController } from "ionic-angular";
 import { ToastController } from "ionic-angular";
+import {BillsToPay} from "../pages/billsToPay/billsToPay";
 
 @Component({
   templateUrl: 'app.html'
@@ -31,6 +32,7 @@ export class MyApp implements OnInit{
     this.pages = [
       { title: 'Home', component: HomePage, icon: 'home' },
       { title: 'List', component: ListPage, icon: 'list' },
+      {title: 'Bills To Pay', component: BillsToPay, icon: 'paper'}
     ];
 
   }

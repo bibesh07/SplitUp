@@ -40,6 +40,8 @@ namespace SplitUp.Web.Controllers
                 {
                     return Ok(this._sendIncorrectLoginMessage());
                 }
+            //Use Session later when project is finished
+                //HttpContext.Session.SetInt32("UserId", loggedInUser.Id);
                 return Ok(loggedInUser);
             }
 

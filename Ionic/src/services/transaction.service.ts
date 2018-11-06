@@ -19,4 +19,6 @@ export class TransactionService {
   GetAllBills = (): Observable<any> => this.http.get<any>(this.SITEURL + 'transaction/GetAllBills/' + localStorage.getItem('userId'));
 
   DeleteTransactions = (transactionId): Observable<any> => this.http.delete<any>(this.SITEURL + 'transaction/DeleteTransaction/' + transactionId);
+
+  getUserIncludedBills = ():Observable<any> => this.http.get<any>(this.SITEURL + 'Transaction/GetUserIncludedTransactions/' + localStorage.getItem('userId'));
 }

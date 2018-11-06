@@ -17,6 +17,8 @@ import {UserListModal} from "../modals/userListModal/userListModal";
 import {TransactionService} from "../services/transaction.service";
 import {ViewBillDetailsModal} from "../modals/viewBillDetailsModal/viewBillDetailsModal";
 import {CreditService} from "../services/credit.service";
+import {BillsToPay} from "../pages/billsToPay/billsToPay";
+import {ViewCreditorBillDetails} from "../modals/viewCreditorBillDetails/viewCreditorBillDetails";
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import {CreditService} from "../services/credit.service";
     RegisterPage,
     BillDetailsModal,
     UserListModal,
-    ViewBillDetailsModal
+    ViewBillDetailsModal,
+    BillsToPay,
+    ViewCreditorBillDetails
   ],
   imports: [
     BrowserModule,
@@ -43,7 +47,9 @@ import {CreditService} from "../services/credit.service";
     RegisterPage,
     BillDetailsModal,
     UserListModal,
-    ViewBillDetailsModal
+    ViewBillDetailsModal,
+    BillsToPay,
+    ViewCreditorBillDetails
   ],
   providers: [
     StatusBar,
@@ -52,7 +58,7 @@ import {CreditService} from "../services/credit.service";
     UserService,
     HttpClient,
     TransactionService,
-    CreditService
+    CreditService,
   ]
 })
 export class AppModule {}

@@ -16,5 +16,7 @@ namespace SplitUp.Web.Services
         IEnumerable<Credit> GetCreditorsByTransaction(int transactionId);
 
         void UpdateCreditorTransaction(int transactionId, int creditorId);
+
+        int[] GetUserIncludedTransactionIds(int userId);
     }
 }
