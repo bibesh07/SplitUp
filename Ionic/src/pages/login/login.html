@@ -33,7 +33,7 @@
     <form novalidate  (ngSubmit)='f.form.valid && login()' [formGroup]="loginform" #f="ngForm">
       <ion-item>
         <ion-label stacked>Email</ion-label>
-        <ion-input type="text" [(ngModel)]="loginDetails.email" formControlName="email"></ion-input>
+        <ion-input #myEmail type="text" [(ngModel)]="loginDetails.email" formControlName="email"></ion-input>
       </ion-item>
       <ion-item no-lines *ngIf="(loginform.get('email').hasError('pattern') || loginform.get('email').hasError('required') || loginform.get('email').touched)">
         <div class="text-error" *ngIf="loginform.get('email').hasError('required') && (loginform.get('email').touched || f.submitted)">
@@ -55,7 +55,7 @@
       </ion-item>
       <br/>
       <!--Login Button-->
-      <button id="loginBtn" type="submit" ion-button block color="primary" *ngIf="!this.validating"><ion-icon name="log-in" md="ios-log-in-outline"></ion-icon>&nbsp;&nbsp;Login</button>
+      <button id="loginBtn" type="submit" ion-button block color="primary" [disabled]="!myEmail.value" *ngIf="!this.validating"><ion-icon name="log-in" md="ios-log-in-outline"></ion-icon>&nbsp;&nbsp;Login</button>
       <button id="loginBtn" type="submit" ion-button block color="primary" *ngIf="this.validating"><ion-spinner name="crescent"></ion-spinner>
       </button>
     </form>
